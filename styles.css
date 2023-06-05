@@ -1,0 +1,28 @@
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+}
+
+.canvas-row {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.canvas-square {
+    flex: 1 1 0;
+    background-color: lightgray;
+    border: 1px solid gray;
+    box-sizing: border-box;
+
+}
+
+.black {
+    background-color: black;
+}
+
+#change-size {
+    padding: 10px;    
+}
